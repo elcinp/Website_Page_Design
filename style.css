@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+body{
+    font-size: 20px;
+    color: white;
+}
+
+/* ------------HOME---------- */
+
+/* Navbar Part */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    background-color: #35424a;
+    padding: 1.4rem;
+    border-bottom: 4px solid rgb(166,80,138);
+    color: white;
+    font-size: 1.5rem;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 2vh;
+    color: white;
+    text-transform: uppercase;
+    font-weight:500;
+    font-size: 1.3rem;
+}
+#navbar-span{
+    color: rgb(166,80,138);
+}
+#home{
+    color: rgb(166,80,138);
+}
+
+#home:hover{
+    color:white;
+    cursor: pointer;
+    text-shadow: 1px 1px  white;
+    transition: 0.7s;
+    
+}
+.link:hover{
+    text-shadow: 1px 1px white;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+
+/* Main Part */
+
+.main-image{
+    background-image: url(./img/showcase.jpg);
+    width: 100%; 
+    height: 100vh;
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    display:inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5vh;
+    color: white;
+    font-size: 1.8rem;
+}
+h1{
+    padding: 1rem;
+}
+/*Subscribe Part*/
+
+.main-subscribe{
+    background-color: #35424a;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3rem;
+}
+#email{
+    padding: 1.5vh;
+    width: 50vh;
+}
+#subscribe-btn{
+    padding: 1.5vh;
+    width: max-content;
+    background-color:#e8491d;
+    color: white;
+}
+
+/* Html-Css-Graphic Design */
+
+.main-bottom{
+    display: flex;
+}
+.main-bottom img{
+    width: 18vh;
+}
+.main-bottom div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    color: black;
+}
+.main-bottom img,h3,p{
+    padding: 1.5vh;
+}
+
+/* footer */
+
+footer {
+    background-color: #35424a;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh;
+    color: white;
+    font-size: 1.1rem;
+}
+footer img{
+    width: 28vh;
+}
+
+/* ----------ABOUT US ---------- */
+
+.about-main{
+    display: flex;
+    /* flex-direction: row; */
+    width: 100%;
+    height: 100vh;
+    padding: 3vh 3vh 0 4vh;
+    overflow: auto;
+}
+.about-main-left{
+    margin-right: 4vh;
+}    
+.about-main-left1{
+    color: black;
+}    
+.about-main-left2{
+    background-color: #35424a;
+}    
+.about-main-right{
+    background-color: #35424a;
+    height: 35vh;
+    margin-left:4vh;
+    padding-top: 4vh;
+    overflow: auto;
+}    
+
+
+/* .about-main {
+    width: 100%;
+    height: 100vh;
+    color: black;
+    padding: 2vh 3vh 0 4vh;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(4,25%);
+}
+.
+.about-main-left1{
+    color: black;
+    grid-column: 1/8;
+    grid-row: 1/2;
+    margin-right: 3vh;
+    /* font-size: 2vh; */
+}
+/* .about-main-left2{
+    background-color: #35424a;
+    color: white;
+    margin-right: 3vh;
+    grid-column: 1/8;
+    grid-row: 2/3;
+    height: 17vh;
+    /* font-size: 2vh; 
+} 
+.about-main-right{
+    background-color: #35424a;
+    height: max-content;
+    color: white;
+    grid-column: 8/11;
+    grid-row: 1/3;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    /* font-size: 2vh; 
+} */
+
+/* SERVICES MAIN */
+
+.main-services{
+    color: black;
+    width: 100%;
+    /* display: flex; */
+    height: 100vh;
+    margin: 3vh;
+}
+.main-services-div{
+    color: black;
+    width: 65%;
+    float: left;
+}
+.main-services-divs{
+    background-color: #e6e6e6;
+    border: 1px solid rgb(190, 188, 188);
+    box-shadow: 2px black;
+    margin: 3vh;  
+}
+.main-services h3{
+    margin: 2vh;
+}
+
+/* Form */
+
+.quote{
+    background-color: #35424a;
+    margin: 2rem;
+    width: 30%;
+    margin-bottom: 2rem;
+    float: right;
+    padding: 3vh 0 2vh 3vh;
+}
+
+#nameform{
+    width: 90%;
+    padding: 1rem;
+    height: 1.7rem;
+    font-size: 1rem;
+}
+#emailform{
+    width: 90%;
+    padding: 1rem;
+    height: 1.7rem;
+    font-size: 1rem;
+}
+#message{
+    width: 90%;
+    padding: 1rem;
+    height: 4rem;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+#send-btn{
+    padding: 1.5vh 3vh 1.5vh 3vh;
+    width: max-content;
+    background-color:#e8491d;
+    color:white;
+}
+
+/*Media Queries */
+
+@media (min-width: 480px) and (max-width:768px){
+    .main-services{
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+    .main-services-div{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        float: none;
+    }
+    .main-services-divs{
+        width: 90%;
+    }
+    .quote{
+        width: 90%;
+        float: none;
+    }
+    .main-services div{
+        margin-left: 0;
+    }
+    .main-subscribe{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .about-main-right{
+        margin-top: 10px;
+        margin-left: 0;
+        
+    }
+}
