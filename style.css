@@ -173,14 +173,14 @@ footer img{
 }
 .main-services-div{
     color: black;
-    width: 55%;
+    width: 60%;
     float: left;
 }
 .main-services-divs{
     background-color: #e6e6e6;
     border: 1px solid rgb(190, 188, 188);
     box-shadow: 2px black;
-    margin: 3vh;  
+    margin: 3vh 0 3vh 3vh;  
 }
 .main-services h3{
     margin: 2vh;
